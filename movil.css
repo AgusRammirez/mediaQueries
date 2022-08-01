@@ -20,10 +20,6 @@ div {
 	margin: 0 auto;
 }
 
-p {
-	text-align: justify;
-}
-
 nav {
 	background: #cd741b;
 	float: left;
@@ -43,6 +39,8 @@ section {
 	background: #F1F2C0;
 	margin: 0px;
 	width: 500px;
+	border-top: solid #000 1.5px;
+	border-bottom: solid #000 1.5px;
 }
 
 aside {
