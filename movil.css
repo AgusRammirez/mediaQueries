@@ -3,15 +3,16 @@
 body {
 	color: #000;
 	background: #332F29;
-	font-size: 100%;
-	margin: 0px;
+	margin: 0 auto;
+	font-size: 90%;
 }
 
 div {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-content: space-between;
+	margin-left: 100%;
 }
 
 .contenedor {
@@ -23,7 +24,8 @@ div {
 nav {
 	background: #cd741b;
 	float: left;
-	width: 500px;
+	width: 70%;
+
 }
 
 ul {
@@ -38,13 +40,28 @@ a {
 section {
 	background: #F1F2C0;
 	margin: 0px;
-	width: 500px;
 	border-top: solid #000 1.5px;
 	border-bottom: solid #000 1.5px;
+	width: 70%;
+	float: left;
 }
 
 aside {
 	background: #CCC59E;
-	float: right;
-	width: 500px;
+	float: left;
+	width: 70%;
+}
+
+.margen {
+	width: 100%;
+	padding-left: 5px;
+}
+
+h1 {
+	padding-left: 5px;
+}
+
+.letra {
+	text-align: justify;
+	
 }
