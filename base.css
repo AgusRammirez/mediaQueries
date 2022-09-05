@@ -6,11 +6,9 @@ body {
 	font-size: 100%;
 }
 
-div {
-	display: block;
-}
-
 .contenedor {
+	display: flex;
+    flex-direction: column;
 	width: 800px;
 	background: #8FA68E;
 	margin-right: auto;
