@@ -21,6 +21,7 @@ h2 {
 
 p {
     margin-top: 8px;
+    padding-right: 30px;
 }
 
 nav {
@@ -28,8 +29,9 @@ nav {
     padding-right: 100%;
 }
 
-li {
+.colorLetra{
     color: black;
+   
 }
 
 section {
@@ -38,6 +40,8 @@ section {
     margin-left: 0px;
     padding-right: 100%;
     padding-left: 12px;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
 }
 
 aside {
